@@ -28,46 +28,37 @@
 - **Mobile** : Utilisation d'**Expo** pour tester et déployer l'application sur Android et iOS.
 
 ## Installation & Lancement
-
-### Back-end
-1. Cloner le projet :
+Cloner le projet :
     ```bash
-    git clone https://github.com/ton-utilisateur/guess-my-number-backend.git
-    cd guess-my-number-backend
+    git clone https://github.com/ton-utilisateur/guess-my-number
+    cd guess-my-number
     ```
-2. Installer les dépendances :
+### Back-end
+1. Installer les dépendances :
     ```bash
+    cd backend
     npm install
     ```
-3. Lancer le serveur :
+2. Lancer le serveur :
     ```bash
     node index.js
     ```
    Le serveur est maintenant disponible sur `http://localhost:3000`.
 
 ### Front-end Web
-1. Cloner le projet :
+1. Installer les dépendances :
     ```bash
-    git clone https://github.com/ton-utilisateur/guess-my-number-frontend.git
-    cd guess-my-number-frontend
-    ```
-2. Installer les dépendances :
-    ```bash
+    cd frontend
     npm install
     ```
-3. Lancer l'application :
+2. Lancer l'application :
     ```bash
     npm start
     ```
    L'application est accessible sur `http://localhost:3000`.
 
 ### Application Mobile
-1. Cloner le projet :
-    ```bash
-    git clone https://github.com/ton-utilisateur/guess-my-number-mobile.git
-    cd guess-my-number-mobile
-    ```
-2. Installer Expo CLI :
+1. Installer Expo CLI :
     ```bash
     npm install -g expo-cli
     ```
