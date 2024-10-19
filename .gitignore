@@ -1,0 +1,77 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+build/
+dist/
+tmp/
+out/
+
+# Expo and React Native specific files
+.expo/
+.expo-shared/
+*.expo
+
+# Metro bundler cache (React Native)
+*.metro
+
+# React Native files for Android and iOS
+android/
+ios/
+
+# Generated files
+coverage/
+*.tsbuildinfo
+public/static/
+
+# VSCode settings
+.vscode/
+.idea/
+
+# WebStorm IDE files
+.idea
+*.iml
+
+# MacOS system files
+.DS_Store
+
+# npm package-lock and yarn lock files
+package-lock.json
+yarn.lock
+
+# Parcel-bundler cache (if you use it)
+.cache/
+
+# Local development server config files
+.vscode/
+*.sublime*
+
+# Test output directories
+test_output/
+coverage/
+reports/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Miscellaneous
+*.log
+*.lock
